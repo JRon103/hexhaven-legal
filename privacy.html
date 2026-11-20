@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Hexhaven</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <style>body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: #eee2c9; color: #2a1f16; margin: 0; padding: 24px 16px; }
+main { max-width: 760px; margin: 0 auto; background: #fffaf0; border: 1px solid #e2d2b2; border-radius: 16px; padding: 28px 32px; box-shadow: 0 8px 24px rgba(60,40,20,.1); }
+h1 { margin: 0 0 6px; font-size: 28px; }
+h2 { margin: 20px 0 8px; font-size: 18px; }
+p, li { line-height: 1.6; }
+.meta { color: #7b6a57; font-size: 13px; margin-top: 0; }
+a { color: #b8532a; }
+code { background: #f7eedb; padding: 1px 5px; border-radius: 4px; font-size: 0.92em; }</style>
+  <style>
+    .legal { max-width: 760px; margin: 32px auto; padding: 28px 32px; display: grid; gap: 14px; }
+    .legal h1 { font-size: 28px; }
+    .legal h2 { font-size: 18px; margin-top: 8px; }
+    .legal p, .legal li { color: var(--ink); line-height: 1.6; margin: 0; }
+    .legal ul { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+    .legal .meta { color: var(--muted); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <main class="card legal">
+    <h1>Privacy Policy</h1>
+    <p class="meta">Last updated: November 20, 2026</p>
+    <p>Hexhaven is a multiplayer browser and Discord Activity board game. We collect only the minimum information required to run multiplayer game rooms.</p>
+
+    <h2>1. Information We Collect</h2>
+    <ul>
+      <li><strong>Display Name:</strong> The nickname you enter in the browser, or your Discord display name/username when playing via Discord Activities (via the <code>identify</code> scope).</li>
+      <li><strong>Discord User ID &amp; Activity Instance ID:</strong> When launched as a Discord Activity, we use your Discord user ID solely to let you reclaim your seat if you disconnect, and Discord's instance ID to group players in the same voice channel or DM into one room.</li>
+      <li><strong>Game State &amp; In-Game Chat:</strong> Active room state (board layout, moves, scores, and room chat messages) is stored temporarily so games survive page reloads and server restarts.</li>
+      <li><strong>Local Preferences:</strong> Theme, language, sound, animation preferences, and recent room session tokens are stored locally in your browser's <code>localStorage</code> / <code>sessionStorage</code>.</li>
+    </ul>
+
+    <h2>2. Discord Rich Presence</h2>
+    <p>When playing inside Discord, Hexhaven uses the <code>rpc.activities.write</code> scope to update your Discord Activity status (such as lobby status, game mode, player count, and turn number).</p>
+
+    <h2>3. Data Retention &amp; Sharing</h2>
+    <ul>
+      <li>Room data is automatically deleted after 7 days of inactivity.</li>
+      <li>We do not sell, rent, or share your data with third parties, and we do not use third-party advertising or analytics trackers.</li>
+      <li>OAuth access tokens exchanged for Discord Activities are used only to authenticate your active session and are not permanently stored on the server.</li>
+    </ul>
+
+    <h2>4. Contact &amp; Deletion Requests</h2>
+    <p>You may leave a room at any time or clear your browser storage to remove local session data. For privacy questions or data deletion requests, please open an issue on the project repository or contact the developer via Discord.</p>
+
+    <p style="margin-top:12px"><a href="https://hexhaven-401668287786.us-central1.run.app/">← Back to Hexhaven</a> · <a href="./terms.html">Terms of Service</a></p>
+  </main>
+</body>
+</html>
